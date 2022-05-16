@@ -8,9 +8,11 @@ async function checkToken(req, res, next) {
     return res.status(401).json({ msg: 'Acesso negado!' });
   }
 
+  const url = process.env.AUTH_URL || "node1:3000"
+
   try {
     const { data } = await axios.post(
-      `${process.env.AUTH_URL}/api/auth/validation`,
+      `http://${url}/api/auth/validation`,
       { token }
     );
 
