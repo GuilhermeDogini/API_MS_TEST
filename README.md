@@ -6,8 +6,8 @@ Projeto destiando ao Back-end, Contendo um CRUD e um Authentication.
 
 ## Sobre o projeto
 
-O **Projeto** são duas APIs contendo um CRUD(Create, Read, Update e Delete) usando o Postman para consultas e criações e o Docker para fazer a conexão.
-Na API Authentication fazemos as consultas e verificações de tokens dos usuários para verificar sua conexão com o banco.
+O **Projeto** são duas APIs contendo um CRUD(Create, Read, Update e Delete) usando o Postman para consultas e criações e o Docker para subir o ambiente.
+Na API Authentication fazemos as consultas, verificações de tokens dos usuários e gerenciamente de acessos e privilégios.
 
 *É necessário ter o Docker instalado para a conexão com o banco de dados
 *É necessário ter o Postman instalado para a consulta no banco de dados
